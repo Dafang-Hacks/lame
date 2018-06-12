@@ -1,4 +1,4 @@
-TOOLCHAIN=$(pwd)/../mips-gcc472-glibc216-64bit/bin
+TOOLCHAIN=$(pwd)/../toolchain/bin
 CROSS_COMPILE=$TOOLCHAIN/mips-linux-gnu-
 echo "Using the following Toolchain $TOOLCHAIN"
 make clean
